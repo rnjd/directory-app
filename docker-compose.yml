@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    image: directory-api
+    volumes:
+      - ./data:/home/app_user/data
+    stdin_open: true
+    tty: true
+    container_name: directory-app

@@ -42,7 +42,7 @@ Example usage:
 curl http://127.0.0.1:5000/
 ```
 
-Returns all files and directories under `/home/app_user/src` (assuming that is the root).  
+Returns all files and directories under `/home/app_user/` (assuming that is the root).  
 
 ```commandline
 curl http://127.0.0.1:5000/src

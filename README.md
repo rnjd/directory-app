@@ -25,7 +25,7 @@ e.g., if you want to use the path that you are currently in as your root, then l
 
 In another terminal window, launch another bash session within the container:
 ```commandline
-docker exec -it weavegrid-app bash
+docker exec -it directory-app bash
 ```
 
 You can now make API calls from this session. 
